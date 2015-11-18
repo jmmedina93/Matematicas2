@@ -12,5 +12,21 @@ public class Matematicas {
 		
 		return par % 2 == 0;
 	}
+	/**metodo que devuelve si es divisible por 3 un numero
+	 * @param par entero
+	 * @return boolean 
+	 * */
+	public static boolean esDivisiblePor3 (int par) {
+		
+		return par % 3 == 0;
+	}
+	/**metodo que devuelve si es divisible por 5 un numero
+	 * @param par entero
+	 * @return boolean 
+	 * */
+	public static boolean esDivisiblePor5 (int par) {
+		
+		return par % 5 == 0;
+	}
 }
 
