@@ -1,0 +1,9 @@
+#eluimos los binarios
+*.class
+
+#eluimos la carpeta doc
+/doc/
+
+#eluimos copias y backup
+*.swp
+*~
